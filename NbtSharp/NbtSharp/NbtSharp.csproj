@@ -39,7 +39,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Nbt.cs" />
+    <Compile Include="NbtException.cs" />
+    <Compile Include="NbtTagFactory.cs" />
+    <Compile Include="NbtTags\NbtTagBase.cs" />
+    <Compile Include="NbtTags\NbtTagByte.cs" />
+    <Compile Include="NbtTags\NbtTagByteArray.cs" />
+    <Compile Include="NbtTags\NbtTagCompound.cs" />
+    <Compile Include="NbtTags\NbtTagDouble.cs" />
+    <Compile Include="NbtTags\NbtTagEnd.cs" />
+    <Compile Include="NbtTags\NbtTagFloat.cs" />
+    <Compile Include="NbtTags\NbtTagInt.cs" />
+    <Compile Include="NbtTags\NbtTagIntArray.cs" />
+    <Compile Include="NbtTags\NbtTagList.cs" />
+    <Compile Include="NbtTags\NbtTagLong.cs" />
+    <Compile Include="NbtTags\NbtTagShort.cs" />
+    <Compile Include="NbtTags\NbtTagString.cs" />
+    <Compile Include="NbtTags\NbtTagType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

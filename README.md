@@ -1,3 +1,5 @@
+**THIS REPOSITORY WAS A TEST AND IS IN A NON-WORK STATE.**
+
 NbtSharp
 ========
 
